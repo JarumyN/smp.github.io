@@ -297,6 +297,7 @@ section .contenido{
   height: 350px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .descripcionFuncionamiento{
@@ -655,5 +656,6 @@ section .contenido{
     flex-wrap: nowrap;
     overflow: scroll;
     justify-content: left;
+    padding-bottom: 20px;
   }
 }
