@@ -3,6 +3,10 @@ body{
   font-family: 'Montserrat';
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Header */
 
 header {
@@ -397,6 +401,12 @@ section .contenido{
   line-height: 1.5;
 }
 
+.infoUsuario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Footer */
 
 /* Seccion Comienza */
@@ -558,23 +568,92 @@ section .contenido{
     border-radius: 0px;
   }
 
+  .cardDestino .imagenLugar{
+    border-radius: 0px;
+  }
+
   .listaDestinos{
     padding-left: 0px;
     padding-right: 0px;
   }
 
-
   .cardTestimonio{
-    
+    align-items: normal;
+    justify-content: left;
+    height: 100%;
+  }
+
+  .cardTestimonio .iconoCalificacion{
+    width: 20px;
+    height: 20px;
+  }
+
+  .cardTestimonio h5{
+    text-align: left;
+  }
+
+  .cardTestimonio p{
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .infoUsuario{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+  }
+
+  .nombreCalificacion{
+    text-align: left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nombreCalificacion h5{
+    margin: 0px;
   }
 
   .cardTestimonio .imagenTestimonio{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .footerRedes{
+    justify-content: center;
+  }
+
+  .footerRedes .listaRedes{
+    justify-content: center;
   }
 
   .redesSociales{
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 555px) {
+  .cardServicio{
+    flex: 1 0 auto;
+    margin: 0 0px; 
+  }
+
+  .listaServicios{
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: left;
+  }
+
+  .cardFuncionamiento{
+    flex: 1 0 auto;
+    margin: 0 0px; 
+  }
+
+  .listaFuncionamiento{
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: left;
   }
 }
