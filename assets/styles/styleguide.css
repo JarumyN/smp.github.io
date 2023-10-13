@@ -1,0 +1,23 @@
+:root {
+  --h1-header-font-size: 55px;
+
+  --h2-font-weight: 700;
+  --h2-font-size: 36px;
+
+  --h3-font-weight: 700;
+  --h3-font-size: 25px;
+
+  --h4-font-weight: normal;
+  --h4-font-size: 20px;
+
+  --color-green-50: rgba(239, 242, 234, 1);
+  --color-green-100: rgba(205, 215, 190, 1);
+  --color-green-200: rgba(181, 196, 159, 1);
+  --color-green-300: rgba(148, 169, 115, 1);
+  --color-green-400: rgba(127, 153, 88, 1);
+  --color-green-500: rgba(95, 127, 46, 1);
+  --color-green-600: rgba(86, 116, 42, 1);
+  --color-green-700: rgba(67, 90, 33, 1);
+  --color-green-800: rgba(52, 70, 25, 1);
+  --color-green-900: rgba(40, 53, 19, 1);
+}
